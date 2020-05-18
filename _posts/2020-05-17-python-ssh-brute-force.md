@@ -56,7 +56,7 @@ for ip in ip_list:
             loc = get('https://ipapi.co/'+ip+'/json/')
             site = 1
         elif site == 1:
-            loc = get('https://api.ipgeolocation.io/ipgeo?apiKey=36c226c307da40b78a4629a26442e54d&ip='+ip)
+            loc = get('https://api.ipgeolocation.io/ipgeo?apiKey=APIKEY-BURAYA&ip='+ip)
             site = 0
         with open('result.txt', 'a') as result_file:
             result_file.write(ip + "==>" + loc.json()['city'] + "/" + loc.json()['country_name'] + "\n")
