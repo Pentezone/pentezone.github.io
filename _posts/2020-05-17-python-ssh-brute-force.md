@@ -12,11 +12,11 @@ Geçen günlerde bir sunucumuzun aldığı SSH Brute Force saldırısında log k
 ![SSH Brute Force]({{ site.baseurl }}/assets/images/ssh1.JPG)
 
 Öncelikle basit bir bash komutu ile SSH hatalı giriş denemelerini bir dosyaya yazalım.
-> grep sshd.\*Failed /var/log/auth.log > /root/fzr/log.txt
+`grep sshd.\*Failed /var/log/auth.log > /root/fzr/log.txt`
 
 Sonra ```log.txt``` dosyası ile aynı konumda bir python dosyası oluşturalım ve düzenleyelim.
-> touch crawl.py
-> nano crawl.py
+`touch crawl.py`
+`nano crawl.py`
 
 Python dosyasına ilk olarak kütüphaneleri ve gerekecek değişkenleri tanımlıyorum.
 {% highlight python %}
