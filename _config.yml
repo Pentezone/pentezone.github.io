@@ -27,6 +27,25 @@ authors:
       email:          fatih.zor@ogrenci.karatay.edu.tr
       twitter:        https://twitter.com/fatihhzor
       linkedin:       https://www.linkedin.com/in/fatihzor/
+
+    mustafa:
+      name:           Mustafa S. Demirci
+      site:           https://pentezone.com
+      avatar:         assets/images/mustafa.jpeg
+      bio:            "Sizler için daha kaliteli içerikler üretebilmek adına konu tavsiyelerinizi veya tüm eleştirilerinizi benimle paylaşmanızı rica ediyorum. Birlikte gelişmek dileğiyle..."
+      email:          msamidemirci94@gmail.com
+      twitter:        https://twitter.com/sami_demirci18
+      linkedin:       https://linkedin.com/in/mustafa-sami-demirci
+
+    batuhan:
+      name:           Batuhan Kutluca
+      site:           https://batuhankutluca.github.io/
+      avatar:         assets/images/batuhan.jpeg
+      bio:            "Yazılarımda gördüğünüz yazım, terim ve bilgi yanlışlarını sosyal medya aracılığı ile bana iletin. 'Hiç hata yapmayan insan, hiçbir şey yapmayan insandır. Ve hayatta en büyük hata, kendini hatasız sanmaktır.' Yunus Emre"
+      email:          info@ogrenci.karatay.edu.tr
+      twitter:        https://twitter.com/batuhankutluca
+      linkedin:       https://www.linkedin.com/in/batuhankutluca/
+      
 # Defaults
 defaults:
 
